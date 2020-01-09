@@ -1,0 +1,15 @@
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\InventoryPrototype.exe.config
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\InventoryPrototype.exe
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\InventoryPrototype.pdb
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\MySql.Data.dll
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\Google.Protobuf.dll
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\Renci.SshNet.dll
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\bin\Debug\MySql.Data.xml
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.csprojAssemblyReference.cache
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.Form1.resources
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.Properties.Resources.resources
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.csproj.GenerateResource.cache
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.csproj.CopyComplete
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.exe
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.pdb
