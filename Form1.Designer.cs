@@ -33,11 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_item_code = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_price = new System.Windows.Forms.TextBox();
+            this.txt_item_name = new System.Windows.Forms.TextBox();
+            this.txt_stocks = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -89,13 +89,13 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "Price:";
             // 
-            // textBox1
+            // txt_item_code
             // 
-            this.textBox1.Location = new System.Drawing.Point(128, 107);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(179, 26);
-            this.textBox1.TabIndex = 5;
+            this.txt_item_code.Location = new System.Drawing.Point(128, 107);
+            this.txt_item_code.Multiline = true;
+            this.txt_item_code.Name = "txt_item_code";
+            this.txt_item_code.Size = new System.Drawing.Size(179, 26);
+            this.txt_item_code.TabIndex = 5;
             // 
             // textBox2
             // 
@@ -105,29 +105,29 @@
             this.textBox2.Size = new System.Drawing.Size(179, 26);
             this.textBox2.TabIndex = 6;
             // 
-            // textBox3
+            // txt_price
             // 
-            this.textBox3.Location = new System.Drawing.Point(128, 204);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(179, 26);
-            this.textBox3.TabIndex = 8;
+            this.txt_price.Location = new System.Drawing.Point(128, 204);
+            this.txt_price.Multiline = true;
+            this.txt_price.Name = "txt_price";
+            this.txt_price.Size = new System.Drawing.Size(179, 26);
+            this.txt_price.TabIndex = 8;
             // 
-            // textBox4
+            // txt_item_name
             // 
-            this.textBox4.Location = new System.Drawing.Point(128, 139);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(179, 26);
-            this.textBox4.TabIndex = 7;
+            this.txt_item_name.Location = new System.Drawing.Point(128, 139);
+            this.txt_item_name.Multiline = true;
+            this.txt_item_name.Name = "txt_item_name";
+            this.txt_item_name.Size = new System.Drawing.Size(179, 26);
+            this.txt_item_name.TabIndex = 7;
             // 
-            // textBox5
+            // txt_stocks
             // 
-            this.textBox5.Location = new System.Drawing.Point(128, 241);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(179, 26);
-            this.textBox5.TabIndex = 9;
+            this.txt_stocks.Location = new System.Drawing.Point(128, 241);
+            this.txt_stocks.Multiline = true;
+            this.txt_stocks.Name = "txt_stocks";
+            this.txt_stocks.Size = new System.Drawing.Size(179, 26);
+            this.txt_stocks.TabIndex = 9;
             // 
             // button1
             // 
@@ -135,8 +135,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 57);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Edit Item";
+            this.button1.Text = "Add Item";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -152,8 +153,10 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(351, 12);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(469, 457);
             this.dataGridView1.TabIndex = 12;
+            this.dataGridView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseDoubleClick_1);
             // 
             // Form1
             // 
@@ -163,11 +166,11 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt_stocks);
+            this.Controls.Add(this.txt_price);
+            this.Controls.Add(this.txt_item_name);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_item_code);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -189,11 +192,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_item_code;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_price;
+        private System.Windows.Forms.TextBox txt_item_name;
+        private System.Windows.Forms.TextBox txt_stocks;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
