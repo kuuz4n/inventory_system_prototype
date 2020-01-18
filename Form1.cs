@@ -83,7 +83,7 @@ namespace InventoryPrototype
         private void button3_Click(object sender, EventArgs e)
         {
             con.Open();
-            string query = "UPDATE items SET item_name = '"+txt_item_name.Text+"', stocks = '"+txt_stocks.Text+"', item_code = '"+txt_item_code.Text+"',price = '"+txt_price.Text+"'";
+            string query = "UPDATE items SET item_name = '"+txt_item_name.Text+"', stocks = '"+txt_stocks.Text+"',price = '"+txt_price.Text+ "' WHERE item_code = '" + txt_item_code.Text + "'";
             MySqlDataAdapter SDA = new MySqlDataAdapter(query, con);
             SDA.SelectCommand.ExecuteNonQuery();
             con.Close();

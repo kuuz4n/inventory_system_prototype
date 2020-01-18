@@ -99,7 +99,7 @@
             this.txt_item_code.Multiline = true;
             this.txt_item_code.Name = "txt_item_code";
             this.txt_item_code.Size = new System.Drawing.Size(179, 26);
-            this.txt_item_code.TabIndex = 5;
+            this.txt_item_code.TabIndex = 3;
             // 
             // textBox2
             // 
@@ -107,7 +107,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(179, 26);
-            this.textBox2.TabIndex = 6;
+            this.textBox2.TabIndex = 5;
             // 
             // txt_price
             // 
@@ -115,15 +115,15 @@
             this.txt_price.Multiline = true;
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(179, 26);
-            this.txt_price.TabIndex = 8;
+            this.txt_price.TabIndex = 6;
             // 
             // txt_item_name
             // 
-            this.txt_item_name.Location = new System.Drawing.Point(128, 139);
+            this.txt_item_name.Location = new System.Drawing.Point(128, 140);
             this.txt_item_name.Multiline = true;
             this.txt_item_name.Name = "txt_item_name";
             this.txt_item_name.Size = new System.Drawing.Size(179, 26);
-            this.txt_item_name.TabIndex = 7;
+            this.txt_item_name.TabIndex = 4;
             // 
             // txt_stocks
             // 
@@ -131,14 +131,14 @@
             this.txt_stocks.Multiline = true;
             this.txt_stocks.Name = "txt_stocks";
             this.txt_stocks.Size = new System.Drawing.Size(179, 26);
-            this.txt_stocks.TabIndex = 9;
+            this.txt_stocks.TabIndex = 7;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(24, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 57);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 8;
             this.button1.Text = "Add Item";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -148,7 +148,7 @@
             this.button2.Location = new System.Drawing.Point(128, 301);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 57);
-            this.button2.TabIndex = 11;
+            this.button2.TabIndex = 9;
             this.button2.Text = "Remove Item";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -170,18 +170,18 @@
             this.button3.Location = new System.Drawing.Point(229, 301);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 57);
-            this.button3.TabIndex = 13;
+            this.button3.TabIndex = 10;
             this.button3.Text = "Update Item";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 40);
+            this.textBox1.Location = new System.Drawing.Point(128, 40);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 26);
-            this.textBox1.TabIndex = 14;
+            this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label6
@@ -195,10 +195,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(177, 72);
+            this.button4.Location = new System.Drawing.Point(165, 72);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(95, 25);
-            this.button4.TabIndex = 16;
+            this.button4.TabIndex = 2;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
