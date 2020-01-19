@@ -13,3 +13,4 @@ C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\Inve
 C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.csproj.CopyComplete
 C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.exe
 C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.pdb
+C:\Users\Kevon\source\repos\InventoryPrototype\InventoryPrototype\obj\Debug\InventoryPrototype.Login.resources
